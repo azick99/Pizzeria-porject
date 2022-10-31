@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--w3school css framework -->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <!--w3school js framework-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Practice four</title>
+
+    </head>
+
+    <body>
+
+        <!--Navigation part()-->
+        <div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
+            <a href="#Home" class="w3-button w3-bar-item">Home</a>
+            <a href="#Menu" class="w3-button w3-bar-item">Menu</a>
+            <a href="#About" class="w3-button w3-bar-item">About</a>
+            <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+        </div>
+        <!--Start Content-->
+        <div id="home">
+            <!--Image Part-->
+            <div id="imgdisplay" class="w3-display-container w3-grayscale-min">
+                <div class="w3-display-bottomleft">
+                    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+                </div>
+                <div class="w3-display-middle w3-center">
+                    <span class="text">Thin <br>Crust Pizza</span>
+                    <p><a href="#Menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+                </div>
+            </div>
+
+            <!--Menu-->
+            <div id="Menu" class="w3-container w3-padding-64 w3-black w3-xxlarge w3-content">
+                <h1 class="w3-jumbo w3-center w3-padding-32">The Menu</h1>
+                <div class="w3-row w3-center w3-border-dark-gray ">
+                    <a href="#Pizza">
+                        <div class="w3-third w3-padding-large w3-red">Pizza</div>
+                    </a>
+                    <a href="#Pasta">
+                        <div class="w3-third w3-padding-large w3-hover-red">Pasta</div>
+                    </a>
+                    <a href="#Starters">
+                        <div class="w3-third w3-padding-large w3-hover-red">Starters</div>
+                    </a>
+                </div>
+                <div id="Pizza" class="w3-container w3-white w3-padding-32">
+                    <h1><b>Margherita</b><span class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$12.50</span>
+                    </h1>
+                    <p class="w3-text-gray">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    <hr>
+                    <h1><b>Formaggio</b><span class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$15.50</span>
+                    </h1>
+                    <p class="w3-text-gray">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                    <hr>
+                    <h1><b>Chicken</b><span class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$17.00</span>
+                    </h1>
+                    <p class="w3-text-gray">Fresh tomatoes, mozzarella, chicken, onions</p>
+                    <hr>
+                    <h1><b>Pineapple'o'clock</b><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$16.50</span></h1>
+                    <p class="w3-text-gray">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+                    </p>
+                    <hr>
+                    <h1><b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$20.00</span></h1>
+                    <p class="w3-text-gray">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                </div>
+
+
+                <h1 id="Pasta" class="w3-center w3-jumbo w3-padding-32"> Pasta</h1>
+                <div class="w3-white w3-container w3-padding-32">
+                    <h1><b>Lasagna</b> <span class="w3-gray w3-tag w3-round">Popular</span><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$13.50</span></h1>
+                    <p class="w3-text-gray">Special sauce, mozzarella, parmesan, ground beef</p>
+                    <hr>
+                    <h1><b>Ravioli</b><span class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$14.50</span>
+                    </h1>
+                    <p class="w3-text-gray">Ravioli filled with cheese</p>
+                    <hr>
+                    <h1><b>Spaghetti Classica</b><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$11.00</span></h1>
+                    <p class="w3-text-gray">Fresh tomatoes, onions, ground beef</p>
+                </div>
+                <h1 id="Starters" class="w3-center w3-jumbo w3-padding-32">Starters</h1>
+                <div class="w3-white w3-container w3-padding-32">
+                    <h1><b>Today's Soup</b> <span class="w3-gray w3-tag w3-round">Seasonal</span><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$5.50</span></h1>
+                    <p class="w3-text-gray">Ask the waiter</p>
+                    <hr>
+                    <h1><b>Bruschetta</b><span class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$8.50</span>
+                    </h1>
+                    <p class="w3-text-gray">Bread with pesto, tomatoes, onion, garlic</p>
+                    <hr>
+                    <h1><b>Garlic bread</b><span
+                            class="w3-tag w3-right w3-dark-gray w3-text-white w3-round">$9.50</span></h1>
+                    <p class="w3-text-gray">Grilled ciabatta, garlic butter, onions</p>
+                </div>
+            </div>
+
+            <!--About-->
+            <div class="w3-container w3-red w3-xlarge w3-grayscale w3-padding-64 w3-content" id="About">
+                <h1 class="w3-jumbo w3-center">About</h1>
+                <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><strong>The Chef?</strong> Mr. Italiano himself <img src="img/chef.jpg" alt="Chief"
+                        style="width:150px ;" class="w3-circle w3-right"></p>
+                <p>We are proud of our interiors.</p>
+                <p class="w3-padding-16 w3-stretch"><img src="img/img_restaurant.jpg" alt="Restaurant"
+                        style="width: 100%;">
+                </p>
+                <h1><b>Opening Hours</b></h1>
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <p>Mon & Tue CLOSED</p>
+                        <p>Wednesday 10.00 - 24.00</p>
+                        <p>Thursday 10:00 - 24:00</p>
+                    </div>
+                    <div class="w3-half">
+                        <p>Friday 10:00 - 12:00</p>
+                        <p>Saturday 10:00 - 23:00</p>
+                        <p>Sunday Closed</p>
+                    </div>
+                </div>
+            </div>
+            <!--Map(Location)-->
+            <img src="img/locatin.jpg" alt="Location" style="width: 100%;" class="w3-grayscale w3-image w3-padding">
+            <div class="w3-container  w3-xlarge w3-grayscale w3-padding-top-32 w3-content">
+                <div class="w3-blue-gray w3-padding">
+                    <h1 id="Contact" class="w3-jumbo w3-center w3-blue-gray">Contact</h1>
+                    <p>Find us at some address at some place or call us at 05050515-122330</p>
+                    <p>We offer full-service catering for any event, large or small. We understand your needs and we
+                        will
+                        cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                    <p class="w3-xxlarge"><b>Reserve</b>a table, ask for today's special or just send us a message:
+                    </p>
+                    <form action="/action.php" target="_blank">
+                        <p><input type="text" class="w3-input w3-padding-16 w3-border w3-round-medium"
+                                placeholder="Name" required name="Name"></p>
+                        <p><input type="number" class="w3-input w3-padding-16 w3-border w3-round-medium"
+                                placeholder="How many people" required name="people"></p>
+                        <p><input type="datetime-local" class="w3-input w3-padding-16 w3-border w3-round-medium"
+                                placeholder="Date and Local" required name="Time" value="2020-11-16T20:00"></p>
+                        <p><input type="text" class="w3-input w3-padding-16 w3-border w3-round-medium"
+                                placeholder="Message\Special requirements" required name="people"></p>
+                        <p><button class="w3-button w3-light-gray w3-block" type="submit">SEND MESSAGE</button></p>
+                    </form>
+                    <p class="w3-xlarge w3-center w3-padding-32">Powered by <a href="#">Azicom</a></p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </body>
+
+</html>
